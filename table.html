@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>table</title>
+</head>
+<body>
+            <div class="flex justify-center flex-wrap">
+                <div class="xs:w-full lg:w-1/2">
+                    <div class="shadow-2xl">
+                        <form action="" class="text-center p-5">
+                            <h3 class="text-2xl font-bold">Register Form</h3>
+                            <div class="m-3">
+                                <label for="" class="font-bold">First Name:</label>
+                                <br>
+                                <input class="outline-none text-center border-2 rounded" type="text" name="First Name" required>
+                            </div>
+                            <div class="m-3">
+                                <label  for="" class="font-bold">Last Name:</label>
+                                <br>
+                                <input  class="outline-none text-center rounded border-2" type="text" name="last Name" required>
+                            </div>
+                            <div class="m-3">
+                                <label for="" class="font-bold">Email:</label>
+                                <br>
+                                <input  class="outline-none text-center rounded border-2" type="email" name="email" required>
+                            </div>
+                            <div class="m-3">
+                                <label  for="" class="font-bold">password:</label>
+                                <br>
+                                <input  class="outline-none text-center rounded border-2" type="password" name="password" required>
+                            </div>
+                            <div class="m-3">
+                                <label for="" class="font-bold">Confirm password:</label>
+                                <br>
+                                <input  class="outline-none text-center rounded border-2" type="password" name="confirm password" required>
+                            </div>
+                            <div class="m-3">
+                                <label for="" class="font-bold">Gender:</label>
+                                <br>
+                                <input  type="radio"> <span>Female</span>
+                                <input type="radio"> <span>Male</span>
+                                <input type="radio"> <span>Others</span>
+                            </div>
+                            <div class="m-3">
+                                <input class="cursor-pointer bg-red-300 w-full rounded font-bold" type="submit" value="submit" required>
+                            </div>
+                            <div class="m-3">
+                                <p class="font-bold">Already have a aunccout?
+                                    <a href="">Login</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="xs:w-full lg:w-1/2 overflow-y-scroll">
+                    <div class="m-5" >
+                        <h2 class=" font-bold text-2xl">bill details:</h2>
+                        <table class=" shadow-2xl border-2 border-gray-800">
+                            <tr >
+                                <th class="bg-gray-400 border p-5">NO</th>
+                                <th class="bg-gray-400 border p-5">Items Name</th>
+                                <th class="bg-gray-400 border p-5">Item price</th>
+                                <th class="bg-gray-400 border p-5">Item Quantity</th>
+                                <th class="bg-gray-400 border p-5">Total price</th>
+                            </tr>
+                            <tr class="text-center border">
+                                <td class="p-3">1</td>
+                                <td class="p-3">chocolate</td>
+                                <td class="p-3">20</td>
+                                <td class="p-3">4</td>
+                                <td class="p-3">80</td>
+                            </tr>
+                            <tr class="text-center border">
+                                <td class="p-3">2</td>
+                                <td class="p-3">biscuit</td>
+                                <td class="p-3">35</td>
+                                <td class="p-3">3</td>
+                                <td class="p-3">105</td>
+                            </tr>
+                            <tr class="text-center border">
+                                <td class="p-3">3</td>
+                                <td class="p-3">ice-cream</td>
+                                <td class="p-3">150</td>
+                                <td class="p-3">4</td>
+                                <td class="p-3">600</td>
+                            </tr>
+                            <tr class="text-center border">
+                                <td class="p-3">4</td>
+                                <td class="p-3">potato-chips</td>
+                                <td class="p-3">45</td>
+                                <td class="p-3">5</td>
+                                <td class="p-3">225</td>
+                            </tr>
+                            <tr class="text-center border">
+                                <td class="p-3">5</td>
+                                <td class="p-3">note-book</td>
+                                <td class="p-3">80</td>
+                                <td class="p-3">2</td>
+                                <td class="p-3">160</td>
+                            </tr>
+                            <tr class="text-center border">
+                                <td class="p-3">6</td>
+                                <td class="p-3">pencils</td>
+                                <td class="p-3">10</td>
+                                <td class="p-3">5</td>
+                                <td class="p-3">50</td>
+                            </tr>
+                            <tr class="text-center border">
+                                <td class="p-3">7</td>
+                                <td class="p-3">sunflower-oil</td>
+                                <td class="p-3">120</td>
+                                <td class="p-3">4</td>
+                                <td class="p-3">480</td>
+                            </tr>
+                            <tr class="text-center border">
+                                <td class="p-3">8</td>
+                                <td class="p-3">panner</td>
+                                <td class="p-3">135</td>
+                                <td class="p-3">4</td>
+                                <td class="p-3">540</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        
+</body>
+</html>
